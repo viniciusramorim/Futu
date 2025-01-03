@@ -1,0 +1,14 @@
+2021-11-17T08:36:04+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php:64
+Stack trace:
+#0 /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(379): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(317): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#2 /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#3 /home/demothemewinter/public_html/wp/autrics/wp-includes/class-wp-block.php(221): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callbac in /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php on line 64
+
+2021-11-17T08:36:37+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php:64
+Stack trace:
+#0 /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(379): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(317): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#2 /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#3 /home/demothemewinter/public_html/wp/autrics/wp-includes/class-wp-block.php(221): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->render_callbac in /home/demothemewinter/public_html/wp/autrics/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php on line 64
+
